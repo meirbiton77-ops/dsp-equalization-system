@@ -8,7 +8,7 @@ Developed a complete digital signal processing pipeline to mathematically invert
 
 *   **System Modeling:** Characterizing the sensor's impulse response and frequency domain behavior.
 *   **Zero-Forcing (ZF) Equalizer:** Implemented an inverse filter to completely eliminate the thermal lag. While effective at canceling signal distortion, this approach demonstrated the classic DSP trade-off: severe noise amplification at frequencies where the sensor's original response was weak.
-*   **MMSE Equalizer (Minimum Mean Square Error):** Designed an advanced optimal filter that minimizes the overall error by balancing between distortion cancellation and noise suppression. This resulted in a vastly superior Signal-to-Noise Ratio (SNR) and robust signal recovery even in highly noisy environments.
+*   **MMSE (Minimum Mean Square Error) Equalizer:** Designed an advanced optimal filter that minimizes the overall error by balancing between distortion cancellation and noise suppression. This resulted in a vastly superior Signal-to-Noise Ratio (SNR) and robust signal recovery even in highly noisy environments.
 
 ## Key Capabilities Demonstrated
 *   **Signal Reconstruction:** Successful recovery of attenuated high-frequency signal components.
@@ -21,5 +21,8 @@ Developed a complete digital signal processing pipeline to mathematically invert
 *   **Core Concepts:** Digital Signal Processing (DSP), Optimal Filtering, Estimation Theory, LTI Systems
 
 ## Visual Results
-## Visual Results
-![Original vs. Equalized Signal](equalization_results.png)
+<img src="equalization_results.png" width="700">
+
+## Implementation & Code
+The complete implementation, mathematical derivation, and execution flow are available in the Jupyter Notebook:
+👉 **[Final_Project_Equalization.ipynb](Final_Project_Equalization.ipynb)**
