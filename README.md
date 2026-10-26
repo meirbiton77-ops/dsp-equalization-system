@@ -21,4 +21,5 @@ Developed a complete digital signal processing pipeline to mathematically invert
 *   **Core Concepts:** Digital Signal Processing (DSP), Optimal Filtering, Estimation Theory, LTI Systems
 
 ## Visual Results
-*(הוסף כאן את התמונה של הגרף שלך)*
+## Visual Results
+![Original vs. Equalized Signal](equalization_results.png)
