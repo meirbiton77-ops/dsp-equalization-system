@@ -30,6 +30,5 @@ The physical limitation of the sensor, demonstrating the slow transient response
 ### 2. Equalization Performance (ZF vs. MMSE)
 Comparison of settling times after 10x ensemble averaging. The MMSE filter successfully reduces the settling time to 16.6s (compared to the original 60.6s), outperforming the noisy Zero-Forcing approach.
 <br>
-<img src="MMSE WITH NOISE.png" width="800">s after 10x ensemble averaging. The MMSE filter successfully reduces the settling time to 16.6s (compared to the original 60.6s), outperforming the noisy Zero-Forcing approach.
-<br>
+<img src="MMSE WITH NOISE.png" width="800">
 <img src="equalization_comparison.png" width="800">
