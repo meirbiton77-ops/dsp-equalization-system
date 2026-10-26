@@ -25,9 +25,11 @@ Developed a complete digital signal processing pipeline to mathematically invert
 ### 1. System Step Response (Thermal Lag)
 The physical limitation of the sensor, demonstrating the slow transient response before equalization.
 <br>
-<img src="step_response.png" width="700">
+<img src="תגובת מדרגה.png" width="700">
 
 ### 2. Equalization Performance (ZF vs. MMSE)
 Comparison of settling times after 10x ensemble averaging. The MMSE filter successfully reduces the settling time to 16.6s (compared to the original 60.6s), outperforming the noisy Zero-Forcing approach.
+<br>
+<img src="MMSE WITH NOISE.png" width="800">s after 10x ensemble averaging. The MMSE filter successfully reduces the settling time to 16.6s (compared to the original 60.6s), outperforming the noisy Zero-Forcing approach.
 <br>
 <img src="equalization_comparison.png" width="800">
